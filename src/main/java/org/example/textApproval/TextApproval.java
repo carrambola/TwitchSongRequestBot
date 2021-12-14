@@ -12,8 +12,6 @@ import java.util.concurrent.atomic.AtomicBoolean;
 public class TextApproval {
     List<String> forbiddenWords = new ArrayList<>();
 
-    //TODO:banned songs and kurwa inne piekne rzeczy
-
     public TextApproval() {
         forbiddenWords.add("nigga");
         forbiddenWords.add("ni**a");
